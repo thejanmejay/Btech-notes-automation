@@ -1,0 +1,7 @@
+<suite name="AutomationSuite">
+    <test name="SampleTests">
+        <classes>
+            <class name="SampleTest"/>
+        </classes>
+    </test>
+</suite>
