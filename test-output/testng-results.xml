@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-16T02:10:40 IST" name="AutomationSuite" finished-at="2025-09-16T02:10:40 IST" duration-ms="77">
+  <suite started-at="2025-09-16T13:13:42 IST" name="CrossBrowserSuite" finished-at="2025-09-16T13:14:54 IST" duration-ms="71928">
     <groups>
+      <group name="HomePage">
+        <method signature="HomepageTest.testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@765d7657]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@710f4dc7]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@65e98b1c]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+      </group> <!-- HomePage -->
     </groups>
-    <test started-at="2025-09-16T02:10:40 IST" name="SampleTests" finished-at="2025-09-16T02:10:40 IST" duration-ms="77">
-      <class name="SampleTest">
-        <test-method signature="testSetup()[pri:0, instance:SampleTest@3270d194]" started-at="2025-09-16T02:10:40 IST" name="testSetup" finished-at="2025-09-16T02:10:40 IST" duration-ms="15" status="PASS">
+    <test started-at="2025-09-16T13:13:42 IST" name="ChromeTests" finished-at="2025-09-16T13:14:22 IST" duration-ms="39983">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@765d7657]" started-at="2025-09-16T13:13:42 IST" name="setUp" finished-at="2025-09-16T13:14:20 IST" duration-ms="37676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetup -->
-      </class> <!-- SampleTest -->
-    </test> <!-- SampleTests -->
-  </suite> <!-- AutomationSuite -->
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@765d7657]" started-at="2025-09-16T13:14:20 IST" name="testHomePageTitle" finished-at="2025-09-16T13:14:21 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@765d7657]" started-at="2025-09-16T13:14:21 IST" name="tearDown" finished-at="2025-09-16T13:14:22 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </test> <!-- ChromeTests -->
+    <test started-at="2025-09-16T13:13:42 IST" name="EdgeTests" finished-at="2025-09-16T13:14:22 IST" duration-ms="40066">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@65e98b1c]" started-at="2025-09-16T13:13:42 IST" name="setUp" finished-at="2025-09-16T13:14:11 IST" duration-ms="28994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@65e98b1c]" started-at="2025-09-16T13:14:11 IST" name="testHomePageTitle" finished-at="2025-09-16T13:14:13 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@65e98b1c]" started-at="2025-09-16T13:14:13 IST" name="tearDown" finished-at="2025-09-16T13:14:22 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </test> <!-- EdgeTests -->
+    <test started-at="2025-09-16T13:13:42 IST" name="FirefoxTests" finished-at="2025-09-16T13:14:54 IST" duration-ms="71928">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@710f4dc7]" started-at="2025-09-16T13:13:42 IST" name="setUp" finished-at="2025-09-16T13:14:48 IST" duration-ms="66182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@710f4dc7]" started-at="2025-09-16T13:14:48 IST" name="testHomePageTitle" finished-at="2025-09-16T13:14:49 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@710f4dc7]" started-at="2025-09-16T13:14:49 IST" name="tearDown" finished-at="2025-09-16T13:14:54 IST" duration-ms="5228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </test> <!-- FirefoxTests -->
+  </suite> <!-- CrossBrowserSuite -->
 </testng-results>
