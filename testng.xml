@@ -1,7 +1,32 @@
-<suite name="AutomationSuite">
-    <test name="SampleTests">
-        <classes>
-            <class name="SampleTest"/>
-        </classes>
-    </test>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CrossBrowserSuite" parallel="tests" thread-count="3">
+
+	<!-- Chrome -->
+	<test name="ChromeTests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.btechnotes.Page.Test.HomepageTest" />
+
+		</classes>
+	</test>
+
+	<!-- Firefox -->
+	<test name="FirefoxTests">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.btechnotes.Page.Test.HomepageTest" />
+
+		</classes>
+	</test>
+
+	<!-- Edge -->
+	<test name="EdgeTests">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.btechnotes.Page.Test.HomepageTest" />
+
+		</classes>
+	</test>
+
 </suite>
