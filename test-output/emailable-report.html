@@ -9,6 +9,7 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">CrossBrowserSuite</th></tr>
+<<<<<<< HEAD
 <tr><td><a href="#t0">EdgeTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,616</td><td></td><td></td></tr>
 <tr class="stripe"><td><a href="#t1">ChromeTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">29,745</td><td></td><td></td></tr>
 <tr><td><a href="#t2">FirefoxTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">30,593</td><td></td><td></td></tr>
@@ -21,5 +22,123 @@
 <h2>EdgeTests</h2><h3 id="m0">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>ChromeTests</h2><h3 id="m1">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>FirefoxTests</h2><h3 id="m2">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+=======
+<tr><td><a href="#t0">ChromeTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">97,632</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EdgeTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">106,573</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FirefoxTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">135,222</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">339,427</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossBrowserSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m0">testLearnMore</a></td><td rowspan="1">1758023680896</td><td rowspan="1">3333</td></tr><tr class="failedeven"><td><a href="#m1">testStartBrowsingNote</a></td><td rowspan="1">1758023711628</td><td rowspan="1">1879</td></tr><tr><th colspan="4">ChromeTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m2">testBrowseNotes</a></td><td rowspan="1">1758023649744</td><td rowspan="1">1440</td></tr><tr class="passedeven"><td><a href="#m3">testHomePageTitle</a></td><td rowspan="1">1758023723233</td><td rowspan="1">1696</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EdgeTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m4">testLearnMore</a></td><td rowspan="1">1758023715892</td><td rowspan="1">229</td></tr><tr class="failedeven"><td><a href="#m5">testStartBrowsingNote</a></td><td rowspan="1">1758023727314</td><td rowspan="1">1351</td></tr><tr><th colspan="4">EdgeTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m6">testBrowseNotes</a></td><td rowspan="1">1758023682226</td><td rowspan="1">4767</td></tr><tr class="passedeven"><td><a href="#m7">testHomePageTitle</a></td><td rowspan="1">1758023733616</td><td rowspan="1">1553</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FirefoxTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m8">testLearnMore</a></td><td rowspan="1">1758023735132</td><td rowspan="1">406</td></tr><tr class="failedeven"><td><a href="#m9">testStartBrowsingNote</a></td><td rowspan="1">1758023748495</td><td rowspan="1">95</td></tr><tr><th colspan="4">FirefoxTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.btechnotes.Page.Test.HomepageTest</td><td><a href="#m10">testBrowseNotes</a></td><td rowspan="1">1758023671965</td><td rowspan="1">19366</td></tr><tr class="passedeven"><td><a href="#m11">testHomePageTitle</a></td><td rowspan="1">1758023761688</td><td rowspan="1">36</td></tr></tbody>
+</table>
+<h2>ChromeTests</h2><h3 id="m0">com.btechnotes.Page.Test.HomepageTest#testLearnMore</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+	at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.btechnotes.Page.Test.HomepageTest#testStartBrowsingNote</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (760, 2574)
+  (Session info: chrome=140.0.7339.128)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d44f46d7922456c06828f36a011ff45d, clickElement {id=f.D003988A3741DF68CD5EC11BAD18662E.d.D571703EADA66777BAF5CB7527078DF3.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50670/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d44f46d7922456c06828f36a011ff45d)] -&gt; xpath: //a[normalize-space()=&apos;Start Browsing Notes&apos;]]
+Session ID: d44f46d7922456c06828f36a011ff45d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+	at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.btechnotes.Page.Test.HomepageTest#testBrowseNotes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EdgeTests</h2><h3 id="m4">com.btechnotes.Page.Test.HomepageTest#testLearnMore</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+	at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.btechnotes.Page.Test.HomepageTest#testStartBrowsingNote</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (756, 2576)
+  (Session info: MicrosoftEdge=140.0.3485.66)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c785fb3657962cb308ea6f6a9dbba457, clickElement {id=f.CE1DE75F8C9DD951C737CC107870B073.d.D2B3349D8DFFEE4CA6D2E984101C7E75.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54754}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\pc\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54754/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c785fb3657962cb308ea6f6a9dbba457)] -&gt; xpath: //a[normalize-space()=&apos;Start Browsing Notes&apos;]]
+Session ID: c785fb3657962cb308ea6f6a9dbba457
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+	at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.btechnotes.Page.Test.HomepageTest#testBrowseNotes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirefoxTests</h2><h3 id="m8">com.btechnotes.Page.Test.HomepageTest#testLearnMore</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+	at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.btechnotes.Page.Test.HomepageTest#testStartBrowsingNote</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a class=&quot;btn btn-primary btn-large&quot; href=&quot;notes.html&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2, clickElement {id=351d48bc-cfa9-4a63-8a83-ca7a49f579e3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4152, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2)] -&gt; xpath: //a[normalize-space()=&apos;Start Browsing Notes&apos;]]
+Session ID: 4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+	at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.btechnotes.Page.Test.HomepageTest#testBrowseNotes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.btechnotes.Page.Test.HomepageTest#testHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+>>>>>>> 006079b5a2b3ae8a44c2c78fc57d144689790bbc
 </body>
 </html>

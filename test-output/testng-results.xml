@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-09-18T09:51:17 IST" name="CrossBrowserSuite" finished-at="2025-09-18T09:51:47 IST" duration-ms="30593">
     <groups>
       <group name="HomePage">
@@ -13,6 +14,200 @@
     <test started-at="2025-09-18T09:51:17 IST" name="EdgeTests" finished-at="2025-09-18T09:51:42 IST" duration-ms="25616">
       <class name="com.btechnotes.Page.Test.HomepageTest">
         <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5c7933ad]" started-at="2025-09-18T09:51:17 IST" name="setUp" finished-at="2025-09-18T09:51:42 IST" duration-ms="25215" status="PASS">
+=======
+  <suite started-at="2025-09-16T17:23:50 IST" name="CrossBrowserSuite" finished-at="2025-09-16T17:26:05 IST" duration-ms="135222">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomepageTest.testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" name="testBrowseNotes" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" name="testLearnMore" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" name="testStartBrowsingNote" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" name="testBrowseNotes" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" name="testLearnMore" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" name="testStartBrowsingNote" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" name="testBrowseNotes" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" name="testLearnMore" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" name="testStartBrowsingNote" class="com.btechnotes.Page.Test.HomepageTest"/>
+        <method signature="HomepageTest.testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" name="testHomePageTitle" class="com.btechnotes.Page.Test.HomepageTest"/>
+      </group> <!-- HomePage -->
+    </groups>
+    <test started-at="2025-09-16T17:23:50 IST" name="ChromeTests" finished-at="2025-09-16T17:25:27 IST" duration-ms="97632">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:23:50 IST" name="setUp" finished-at="2025-09-16T17:24:09 IST" duration-ms="19604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:09 IST" name="testBrowseNotes" finished-at="2025-09-16T17:24:11 IST" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowseNotes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:11 IST" name="tearDown" finished-at="2025-09-16T17:24:24 IST" duration-ms="13177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:24 IST" name="setUp" finished-at="2025-09-16T17:24:40 IST" duration-ms="16518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:40 IST" name="testLearnMore" finished-at="2025-09-16T17:24:44 IST" duration-ms="3333" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Learn More page content not displayed! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLearnMore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:44 IST" name="tearDown" finished-at="2025-09-16T17:24:50 IST" duration-ms="6126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:24:50 IST" name="setUp" finished-at="2025-09-16T17:25:11 IST" duration-ms="21167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:25:11 IST" name="testStartBrowsingNote" finished-at="2025-09-16T17:25:13 IST" duration-ms="1879" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (760, 2574)
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d44f46d7922456c06828f36a011ff45d, clickElement {id=f.D003988A3741DF68CD5EC11BAD18662E.d.D571703EADA66777BAF5CB7527078DF3.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50670/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d44f46d7922456c06828f36a011ff45d)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: d44f46d7922456c06828f36a011ff45d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (760, 2574)
+  (Session info: chrome=140.0.7339.128)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d44f46d7922456c06828f36a011ff45d, clickElement {id=f.D003988A3741DF68CD5EC11BAD18662E.d.D571703EADA66777BAF5CB7527078DF3.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50670/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d44f46d7922456c06828f36a011ff45d)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: d44f46d7922456c06828f36a011ff45d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartBrowsingNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:25:13 IST" name="tearDown" finished-at="2025-09-16T17:25:16 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:25:16 IST" name="setUp" finished-at="2025-09-16T17:25:23 IST" duration-ms="6455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:25:23 IST" name="testHomePageTitle" finished-at="2025-09-16T17:25:24 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@2d3379b4]" started-at="2025-09-16T17:25:24 IST" name="tearDown" finished-at="2025-09-16T17:25:27 IST" duration-ms="2753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </test> <!-- ChromeTests -->
+    <test started-at="2025-09-16T17:23:50 IST" name="EdgeTests" finished-at="2025-09-16T17:25:36 IST" duration-ms="106573">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:23:50 IST" name="setUp" finished-at="2025-09-16T17:24:42 IST" duration-ms="52091" status="PASS">
+>>>>>>> 006079b5a2b3ae8a44c2c78fc57d144689790bbc
           <params>
             <param index="0">
               <value>
@@ -23,16 +218,174 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method signature="testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5c7933ad]" started-at="2025-09-18T09:51:42 IST" name="testHomePageTitle" finished-at="2025-09-18T09:51:42 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5c7933ad]" started-at="2025-09-18T09:51:42 IST" name="tearDown" finished-at="2025-09-18T09:51:42 IST" duration-ms="261" status="PASS">
+=======
+        <test-method signature="testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:24:42 IST" name="testBrowseNotes" finished-at="2025-09-16T17:24:46 IST" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowseNotes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:24:46 IST" name="tearDown" finished-at="2025-09-16T17:25:00 IST" duration-ms="13034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:00 IST" name="setUp" finished-at="2025-09-16T17:25:15 IST" duration-ms="15858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:15 IST" name="testLearnMore" finished-at="2025-09-16T17:25:16 IST" duration-ms="229" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Learn More page content not displayed! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLearnMore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:16 IST" name="tearDown" finished-at="2025-09-16T17:25:17 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:17 IST" name="setUp" finished-at="2025-09-16T17:25:27 IST" duration-ms="9779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:27 IST" name="testStartBrowsingNote" finished-at="2025-09-16T17:25:28 IST" duration-ms="1351" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (756, 2576)
+  (Session info: MicrosoftEdge=140.0.3485.66)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c785fb3657962cb308ea6f6a9dbba457, clickElement {id=f.CE1DE75F8C9DD951C737CC107870B073.d.D2B3349D8DFFEE4CA6D2E984101C7E75.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54754}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\pc\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54754/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c785fb3657962cb308ea6f6a9dbba457)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: c785fb3657962cb308ea6f6a9dbba457]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (756, 2576)
+  (Session info: MicrosoftEdge=140.0.3485.66)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c785fb3657962cb308ea6f6a9dbba457, clickElement {id=f.CE1DE75F8C9DD951C737CC107870B073.d.D2B3349D8DFFEE4CA6D2E984101C7E75.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 140.0.3485.66, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54754}, msedge: {msedgedriverVersion: 140.0.3485.66 (bdccd021a49b..., userDataDir: C:\Users\pc\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54754/devtoo..., se:cdpVersion: 140.0.3485.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c785fb3657962cb308ea6f6a9dbba457)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: c785fb3657962cb308ea6f6a9dbba457
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartBrowsingNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:28 IST" name="tearDown" finished-at="2025-09-16T17:25:29 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:29 IST" name="setUp" finished-at="2025-09-16T17:25:33 IST" duration-ms="4342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:33 IST" name="testHomePageTitle" finished-at="2025-09-16T17:25:35 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@8297b3a]" started-at="2025-09-16T17:25:35 IST" name="tearDown" finished-at="2025-09-16T17:25:36 IST" duration-ms="1467" status="PASS">
+>>>>>>> 006079b5a2b3ae8a44c2c78fc57d144689790bbc
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
     </test> <!-- EdgeTests -->
+<<<<<<< HEAD
     <test started-at="2025-09-18T09:51:17 IST" name="ChromeTests" finished-at="2025-09-18T09:51:46 IST" duration-ms="29745">
       <class name="com.btechnotes.Page.Test.HomepageTest">
         <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@413d1baf]" started-at="2025-09-18T09:51:17 IST" name="setUp" finished-at="2025-09-18T09:51:46 IST" duration-ms="29400" status="PASS">
@@ -59,6 +412,11 @@
     <test started-at="2025-09-18T09:51:17 IST" name="FirefoxTests" finished-at="2025-09-18T09:51:47 IST" duration-ms="30593">
       <class name="com.btechnotes.Page.Test.HomepageTest">
         <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5b7a7f33]" started-at="2025-09-18T09:51:17 IST" name="setUp" finished-at="2025-09-18T09:51:46 IST" duration-ms="29740" status="PASS">
+=======
+    <test started-at="2025-09-16T17:23:50 IST" name="FirefoxTests" finished-at="2025-09-16T17:26:05 IST" duration-ms="135222">
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:23:50 IST" name="setUp" finished-at="2025-09-16T17:24:31 IST" duration-ms="41830" status="PASS">
+>>>>>>> 006079b5a2b3ae8a44c2c78fc57d144689790bbc
           <params>
             <param index="0">
               <value>
@@ -69,11 +427,166 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+<<<<<<< HEAD
         <test-method signature="testHomePageTitle()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5b7a7f33]" started-at="2025-09-18T09:51:46 IST" name="testHomePageTitle" finished-at="2025-09-18T09:51:46 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@5b7a7f33]" started-at="2025-09-18T09:51:46 IST" name="tearDown" finished-at="2025-09-18T09:51:47 IST" duration-ms="798" status="PASS">
+=======
+        <test-method signature="testBrowseNotes()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:24:31 IST" name="testBrowseNotes" finished-at="2025-09-16T17:24:51 IST" duration-ms="19366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowseNotes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:24:51 IST" name="tearDown" finished-at="2025-09-16T17:25:11 IST" duration-ms="20272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:11 IST" name="setUp" finished-at="2025-09-16T17:25:35 IST" duration-ms="23509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLearnMore()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:35 IST" name="testLearnMore" finished-at="2025-09-16T17:25:35 IST" duration-ms="406" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Learn More page content not displayed! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Learn More page content not displayed! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.btechnotes.Page.Test.HomepageTest.testLearnMore(HomepageTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLearnMore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:35 IST" name="tearDown" finished-at="2025-09-16T17:25:39 IST" duration-ms="3889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:39 IST" name="setUp" finished-at="2025-09-16T17:25:48 IST" duration-ms="9065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStartBrowsingNote()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:48 IST" name="testStartBrowsingNote" finished-at="2025-09-16T17:25:48 IST" duration-ms="95" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a class="btn btn-primary btn-large" href="notes.html"> could not be scrolled into view
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2, clickElement {id=351d48bc-cfa9-4a63-8a83-ca7a49f579e3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4152, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: 4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a class="btn btn-primary btn-large" href="notes.html"> could not be scrolled into view
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2, clickElement {id=351d48bc-cfa9-4a63-8a83-ca7a49f579e3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4152, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2)] -> xpath: //a[normalize-space()='Start Browsing Notes']]
+Session ID: 4ac6bd6a-a4d5-4a71-9e58-01dde7a222c2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.btechnotes.pages.HomesPage.StartBrowsingNote(HomesPage.java:44)
+at com.btechnotes.Page.Test.HomepageTest.testStartBrowsingNote(HomepageTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartBrowsingNote -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:48 IST" name="tearDown" finished-at="2025-09-16T17:25:52 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:25:52 IST" name="setUp" finished-at="2025-09-16T17:26:01 IST" duration-ms="9655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:26:01 IST" name="testHomePageTitle" finished-at="2025-09-16T17:26:01 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.btechnotes.Page.Test.HomepageTest@510f3d34]" started-at="2025-09-16T17:26:01 IST" name="tearDown" finished-at="2025-09-16T17:26:05 IST" duration-ms="3560" status="PASS">
+>>>>>>> 006079b5a2b3ae8a44c2c78fc57d144689790bbc
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
