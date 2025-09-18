@@ -18,7 +18,7 @@ public class DriverFactory {
 			driver.set(new FirefoxDriver());
 		} else if (browser.equalsIgnoreCase("edge")) {
 			// Use manually downloaded EdgeDriver
-			System.setProperty("webdriver.edge.driver", "C:\\drivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "E:\\Driver\\msedgedriver.exe");
 			driver.set(new EdgeDriver());
 		} else {
 			throw new IllegalArgumentException("Browser not supported: " + browser);
