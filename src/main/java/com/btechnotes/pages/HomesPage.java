@@ -44,16 +44,7 @@ public class HomesPage {
         System.out.println("Start Browsing Notes Button Clicked");
     }
     
-    public void FooterHome() {
-        WebElement FooterHomeBtn =
-                driver.findElement(By.xpath("//ul[@class='footer-links']//li//a[@href='index.html'][normalize-space()='Home']"));
-
-<<<<<<< HEAD
-		// Scroll into view
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", startBrowsingNotesBtn);
-		startBrowsingNotesBtn.click();
-		System.out.println("Start Browsing Notes Button Clicked");
-	}
+   
 
 	public void FooterHome() {
 		WebElement FooterHomeBtn = driver.findElement(
@@ -85,11 +76,4 @@ public class HomesPage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterContactUsBtn);
 		FooterContactUsBtn.click();
 	}
-=======
-        // Scroll into view
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterHomeBtn);
-        FooterHomeBtn.click();
-        System.out.println("Footer Home Button Clicked");
-    }
->>>>>>> d6f23c3a4efff9fdbc712b21e959025e749870a1
 }
