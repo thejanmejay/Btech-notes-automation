@@ -45,6 +45,7 @@ public class HomepageTest extends BaseTest {
 		Assert.assertTrue(driver.getCurrentUrl().contains("/notes.html"),
 				"Start Browsing Notes did not navigate correctly!");
 	}
+
 	@Test(groups = { "HomePage" })
 	public void testFooterHome() {
 		HomesPage homePage = new HomesPage(driver);

@@ -52,6 +52,7 @@ public class HomesPage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterHomeBtn);
 		FooterHomeBtn.click();
 	}
+
 	public void FooterBrowseNotes() {
 		WebElement FooterBrowseNotesBtn = driver.findElement(
 				By.xpath("//ul[@class='footer-links']//li//a[@href='notes.html'][normalize-space()='Browse Notes']"));
@@ -59,16 +60,17 @@ public class HomesPage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterBrowseNotesBtn);
 		FooterBrowseNotesBtn.click();
 	}
+
 	public void FooterUploadGuidelines() {
-		WebElement FooterUploadGuidelinesBtn = driver.findElement(
-				By.xpath("//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']"));
+		WebElement FooterUploadGuidelinesBtn = driver.findElement(By.xpath(
+				"//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']"));
 		// Scroll into view
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterUploadGuidelinesBtn);
 		FooterUploadGuidelinesBtn.click();
 	}
+
 	public void FooterContactUs() {
-		WebElement FooterContactUsBtn = driver.findElement(
-				By.xpath("//a[normalize-space()='Contact Us']"));
+		WebElement FooterContactUsBtn = driver.findElement(By.xpath("//a[normalize-space()='Contact Us']"));
 		// Scroll into view
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterContactUsBtn);
 		FooterContactUsBtn.click();
