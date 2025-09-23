@@ -63,4 +63,37 @@ public class HomesPage {
     public void footerHome() {
         safeClick(footerHomeBtn, "Footer Home Button");
     }
+    
+   
+
+	public void FooterHome() {
+		WebElement FooterHomeBtn = driver.findElement(
+				By.xpath("//ul[@class='footer-links']//li//a[@href='index.html'][normalize-space()='Home']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterHomeBtn);
+		FooterHomeBtn.click();
+	}
+
+	public void FooterBrowseNotes() {
+		WebElement FooterBrowseNotesBtn = driver.findElement(
+				By.xpath("//ul[@class='footer-links']//li//a[@href='notes.html'][normalize-space()='Browse Notes']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterBrowseNotesBtn);
+		FooterBrowseNotesBtn.click();
+	}
+
+	public void FooterUploadGuidelines() {
+		WebElement FooterUploadGuidelinesBtn = driver.findElement(By.xpath(
+				"//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterUploadGuidelinesBtn);
+		FooterUploadGuidelinesBtn.click();
+	}
+
+	public void FooterContactUs() {
+		WebElement FooterContactUsBtn = driver.findElement(By.xpath("//a[normalize-space()='Contact Us']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterContactUsBtn);
+		FooterContactUsBtn.click();
+	}
 }

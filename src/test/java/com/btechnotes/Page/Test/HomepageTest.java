@@ -58,8 +58,17 @@ public class HomepageTest extends BaseTest {
         // Wait until the URL contains expected path
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         boolean navigated = wait.until(ExpectedConditions.urlContains("notes.html")); // update with actual URL part
+		Assert.assertTrue(driver.getCurrentUrl().contains("/notes.html"),
+				"Start Browsing Notes did not navigate correctly!");
+	}
 
-        Assert.assertTrue(navigated, "Start Browsing Notes did not navigate correctly!");
+	@Test(groups = { "HomePage" })
+	public void testFooterHome1() {
+		HomesPage homePage = new HomesPage(driver);
+		homePage.FooterHome();
+		Assert.assertTrue(driver.getCurrentUrl().contains("Btech-notes/"));
+
+       // Assert.assertTrue(navigated, "Start Browsing Notes did not navigate correctly!");
     }
 
 
