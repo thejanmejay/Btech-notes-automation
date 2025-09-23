@@ -6,41 +6,71 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class HomesPage {
-    private WebDriver driver;
+	private WebDriver driver;
 
-    // Constructor
-    public HomesPage(WebDriver driver) {
-        this.driver = driver;
-    }
-    // Page Actions
-    public void printTitle() {
-        String titleName = driver.getTitle();
-        System.out.println("Title of the page is: " + titleName);
-    }
+	// Constructor
+	public HomesPage(WebDriver driver) {
+		this.driver = driver;
+	}
 
-    public String getTitleName() {
-        return driver.getTitle();
-    }
+	// Page Actions
+	public void printTitle() {
+		String titleName = driver.getTitle();
+		System.out.println("Title of the page is: " + titleName);
+	}
 
-    public void BrowseNotes() {
-        WebElement browseNotesBtn = driver.findElement(By.xpath("//a[@class='btn btn-primary']"));
-        browseNotesBtn.click();
-        System.out.println("Browse Notes Button Clicked");
-    }
+	public String getTitleName() {
+		return driver.getTitle();
+	}
 
-    public void LearnMore() {
-        WebElement learnMoreBtn = driver.findElement(By.xpath("(//a[normalize-space()='Learn More'])[1]"));
-        learnMoreBtn.click();
-        System.out.println("Learn More Button Clicked");
-    }
+	public void BrowseNotes() {
+		WebElement browseNotesBtn = driver.findElement(By.xpath("//a[@class='btn btn-primary']"));
+		browseNotesBtn.click();
+		System.out.println("Browse Notes Button Clicked");
+	}
 
-    public void StartBrowsingNote() {
-        WebElement startBrowsingNotesBtn =
-                driver.findElement(By.xpath("//a[normalize-space()='Start Browsing Notes']"));
+	public void LearnMore() {
+		WebElement learnMoreBtn = driver.findElement(By.xpath("(//a[normalize-space()='Learn More'])[1]"));
+		learnMoreBtn.click();
+		System.out.println("Learn More Button Clicked");
+	}
 
-        // Scroll into view
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", startBrowsingNotesBtn);
-        startBrowsingNotesBtn.click();
-        System.out.println("Start Browsing Notes Button Clicked");
-    }
+	public void StartBrowsingNote() {
+		WebElement startBrowsingNotesBtn = driver
+				.findElement(By.xpath("//a[normalize-space()='Start Browsing Notes']"));
+
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", startBrowsingNotesBtn);
+		startBrowsingNotesBtn.click();
+		System.out.println("Start Browsing Notes Button Clicked");
+	}
+
+	public void FooterHome() {
+		WebElement FooterHomeBtn = driver.findElement(
+				By.xpath("//ul[@class='footer-links']//li//a[@href='index.html'][normalize-space()='Home']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterHomeBtn);
+		FooterHomeBtn.click();
+	}
+	public void FooterBrowseNotes() {
+		WebElement FooterBrowseNotesBtn = driver.findElement(
+				By.xpath("//ul[@class='footer-links']//li//a[@href='notes.html'][normalize-space()='Browse Notes']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterBrowseNotesBtn);
+		FooterBrowseNotesBtn.click();
+	}
+	public void FooterUploadGuidelines() {
+		WebElement FooterUploadGuidelinesBtn = driver.findElement(
+				By.xpath("//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterUploadGuidelinesBtn);
+		FooterUploadGuidelinesBtn.click();
+	}
+	public void FooterContactUs() {
+		WebElement FooterContactUsBtn = driver.findElement(
+				By.xpath("//a[normalize-space()='Contact Us']"));
+		// Scroll into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterContactUsBtn);
+		FooterContactUsBtn.click();
+	}
 }

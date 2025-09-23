@@ -8,9 +8,39 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testHomePageTitle"/>
+          <include name="testLearnMore"/>
+          <include name="testStartBrowsingNote"/>
+          <include name="testFooterHome"/>
         </methods>
       </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
     </classes>
   </test> <!-- EdgeTests(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLearnMore"/>
+          <include name="testStartBrowsingNote"/>
+          <include name="testFooterHome"/>
+        </methods>
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+  <test thread-count="3" parallel="tests" name="FirefoxTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.btechnotes.Page.Test.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLearnMore"/>
+          <include name="testStartBrowsingNote"/>
+          <include name="testFooterHome"/>
+        </methods>
+      </class> <!-- com.btechnotes.Page.Test.HomepageTest -->
+    </classes>
+  </test> <!-- FirefoxTests(failed) -->
 </suite> <!-- Failed suite [CrossBrowserSuite] -->
