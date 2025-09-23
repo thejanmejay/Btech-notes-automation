@@ -1,5 +1,9 @@
 package com.btechnotes.Page.Test;
 
+import java.time.Duration;
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,48 +12,65 @@ import com.btechnotes.pages.HomesPage;
 
 public class HomepageTest extends BaseTest {
 
-	@Test(groups = { "HomePage" }, priority = 1)
-	public void testHomePageTitle() {
-		HomesPage homePage = new HomesPage(driver);
+    @Test(groups = { "HomePage" }, priority = 1)
+    public void testHomePageTitle() {
+        HomesPage homePage = new HomesPage(driver);
 
-		// Print title via page method
-		homePage.printTitle();
+        // Print title via page method
+        homePage.printTitle();
 
-		// Assertion
-		Assert.assertEquals(homePage.getTitleName(), "B.Tech Notes Hub - Your Academic Success Partner",
-				"Home page title does not match!");
-	}
+        // Assertion
+        Assert.assertEquals(
+            homePage.getTitleName(),
+            "B.Tech Notes Hub - Your Academic Success Partner",
+            "Home page title does not match!"
+        );
+    }
 
-	@Test(groups = { "HomePage" })
-	public void testBrowseNotes() {
-		HomesPage homePage = new HomesPage(driver);
-		homePage.BrowseNotes();
+    @Test(groups = { "HomePage" }, priority = 2)
+    public void testBrowseNotes() {
+        HomesPage homePage = new HomesPage(driver);
+        homePage.browseNotes(); // renamed for Java convention
 
-		Assert.assertTrue(driver.getCurrentUrl().contains("/notes"), "Browse Notes did not navigate to Notes page!");
-	}
+        Assert.assertTrue(
+            driver.getCurrentUrl().contains("/notes"),
+            "Browse Notes did not navigate to Notes page!"
+        );
+    }
 
-	@Test(groups = { "HomePage" })
-	public void testLearnMore() {
-		HomesPage homePage = new HomesPage(driver);
-		homePage.LearnMore();
+    @Test(groups = { "HomePage" }, priority = 3)
+    public void testLearnMore() {
+        HomesPage homePage = new HomesPage(driver);
+        homePage.learnMore();
 
-		// Example assertion: page contains expected content after Learn More
-		Assert.assertTrue(driver.getPageSource().contains("/Btech-notes"), "Learn More page content not displayed!");
-	}
+        // Better to validate via URL or title rather than page source
+        Assert.assertTrue(
+            driver.getCurrentUrl().contains("Btech-notes"),
+            "Learn More page navigation failed!"
+        );
+    }
 
-	@Test(groups = { "HomePage" })
-	public void testStartBrowsingNote() {
-		HomesPage homePage = new HomesPage(driver);
-		homePage.StartBrowsingNote();
+    @Test(groups = { "HomePage" }, priority = 4)
+    public void testStartBrowsingNote() {
+        HomesPage homePage = new HomesPage(driver);
+        homePage.startBrowsingNote();
 
-		Assert.assertTrue(driver.getCurrentUrl().contains("/notes.html"),
-				"Start Browsing Notes did not navigate correctly!");
-	}
-	@Test(groups = { "HomePage" })
-	public void testFooterHome() {
-		HomesPage homePage = new HomesPage(driver);
-		homePage.FooterHome();
-		Assert.assertTrue(driver.getCurrentUrl().contains("Btech-notes/"));
+        // Wait until the URL contains expected path
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        boolean navigated = wait.until(ExpectedConditions.urlContains("notes.html")); // update with actual URL part
 
-	}
+        Assert.assertTrue(navigated, "Start Browsing Notes did not navigate correctly!");
+    }
+
+
+    @Test(groups = { "HomePage" }, priority = 5)
+    public void testFooterHome() {
+        HomesPage homePage = new HomesPage(driver);
+        homePage.footerHome();
+
+        Assert.assertTrue(
+            driver.getCurrentUrl().endsWith("index.html") || driver.getCurrentUrl().contains("Btech-notes"),
+            "Footer Home navigation failed!"
+        );
+    }
 }

@@ -13,8 +13,8 @@ public class BaseTest {
 	@Parameters("browser")
 	@BeforeMethod
 	public void setUp(@Optional("chrome") String browser) {
-		driver = DriverFactory.initDriver(browser);
-		driver.get("https://thejanmejay.github.io/Btech-notes/");
+	    driver = DriverFactory.initDriver(browser);
+	    driver.get("https://thejanmejay.github.io/Btech-notes/");
 	}
 
 	@AfterMethod

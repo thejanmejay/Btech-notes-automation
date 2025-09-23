@@ -1,5 +1,7 @@
 package com.automationpractice.utils;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -18,13 +20,19 @@ public class DriverFactory {
 			driver.set(new FirefoxDriver());
 		} else if (browser.equalsIgnoreCase("edge")) {
 			// Use manually downloaded EdgeDriver
-			System.setProperty("webdriver.edge.driver", "E:\\Driver\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Drivers\\msedgedriver.exe");
+			
 			driver.set(new EdgeDriver());
 		} else {
 			throw new IllegalArgumentException("Browser not supported: " + browser);
 		}
 
 		driver.get().manage().window().maximize();
+		
+		 // Common configurations
+        driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+        driver.get().manage().window().maximize();
 		return driver.get();
 	}
 
