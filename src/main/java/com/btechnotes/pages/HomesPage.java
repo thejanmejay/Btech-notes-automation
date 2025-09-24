@@ -15,8 +15,11 @@ public class HomesPage {
     // Locators
     private By browseNotesBtn = By.xpath("//a[@class='btn btn-primary']");
     private By learnMoreBtn = By.xpath("(//a[normalize-space()='Learn More'])[1]");
-    private static By startBrowsingNoteBtn = By.xpath("//a[normalize-space()='Start Browsing Notes']");
+    private By startBrowsingNoteBtn = By.xpath("//a[normalize-space()='Start Browsing Notes']");
     private By footerHomeBtn = By.xpath("//ul[@class='footer-links']//li//a[@href='index.html'][normalize-space()='Home']");
+    private By footerBrowseNotesBtn = By.xpath("//ul[@class='footer-links']//li//a[@href='notes.html'][normalize-space()='Browse Notes']");
+    private By footerUploadGuidelinesBtn = By.xpath("//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']");
+    private By footerContactUsBtn = By.xpath("//a[normalize-space()='Contact Us']");
 
     // Constructor
     public HomesPage(WebDriver driver) {
@@ -39,8 +42,7 @@ public class HomesPage {
 
     // Page Actions
     public void printTitle() {
-        String titleName = driver.getTitle();
-        System.out.println("Title of the page is: " + titleName);
+        System.out.println("Title of the page is: " + driver.getTitle());
     }
 
     public String getTitleName() {
@@ -59,41 +61,20 @@ public class HomesPage {
         safeClick(startBrowsingNoteBtn, "Start Browsing Notes Button");
     }
 
-
-    public void footerHome() {
+    // Footer Actions
+    public void clickFooterHome() {
         safeClick(footerHomeBtn, "Footer Home Button");
     }
-    
-   
 
-	public void FooterHome() {
-		WebElement FooterHomeBtn = driver.findElement(
-				By.xpath("//ul[@class='footer-links']//li//a[@href='index.html'][normalize-space()='Home']"));
-		// Scroll into view
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterHomeBtn);
-		FooterHomeBtn.click();
-	}
+    public void clickFooterBrowseNotes() {
+        safeClick(footerBrowseNotesBtn, "Footer Browse Notes Button");
+    }
 
-	public void FooterBrowseNotes() {
-		WebElement FooterBrowseNotesBtn = driver.findElement(
-				By.xpath("//ul[@class='footer-links']//li//a[@href='notes.html'][normalize-space()='Browse Notes']"));
-		// Scroll into view
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterBrowseNotesBtn);
-		FooterBrowseNotesBtn.click();
-	}
+    public void clickFooterUploadGuidelines() {
+        safeClick(footerUploadGuidelinesBtn, "Footer Upload Guidelines Button");
+    }
 
-	public void FooterUploadGuidelines() {
-		WebElement FooterUploadGuidelinesBtn = driver.findElement(By.xpath(
-				"//ul[@class='footer-links']//li//a[@href='upload-guidelines.html'][normalize-space()='Upload Guidelines']"));
-		// Scroll into view
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterUploadGuidelinesBtn);
-		FooterUploadGuidelinesBtn.click();
-	}
-
-	public void FooterContactUs() {
-		WebElement FooterContactUsBtn = driver.findElement(By.xpath("//a[normalize-space()='Contact Us']"));
-		// Scroll into view
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", FooterContactUsBtn);
-		FooterContactUsBtn.click();
-	}
+    public void clickFooterContactUs() {
+        safeClick(footerContactUsBtn, "Footer Contact Us Button");
+    }
 }
