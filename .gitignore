@@ -1,3 +1,16 @@
-/target/
-/bin/
-/test-output
+# Eclipse
+.metadata/
+bin/
+.classpath
+.project
+.settings/
+
+# Test output
+test-output/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
